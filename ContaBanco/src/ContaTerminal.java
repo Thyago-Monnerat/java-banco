@@ -55,7 +55,7 @@ public class ContaTerminal {
      * @param saldo - Representa o saldo bancário do usuário.
      */
     public static void exibirInfos(String nome, String agencia, int conta, double saldo){
-        System.out.println("Olá " + nome + "!");
+        System.out.println("Olá " + nome + "! Você acaba de criar sua conta em nosso sistema bancário.");
         System.out.println("Sua agência é: " + agencia);
         System.out.println("Sua conta é: " + conta);
         System.out.println("Seu saldo de R$ " + saldo + " já está disponível para saque!");
